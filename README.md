@@ -32,3 +32,5 @@ streamlit run app.py
 ```
 
 [Streamlit](https://streamlit.io/), the engine behind the webapp will launch it on port 8501 by default on localhost. You should get output in the terminal to get to http://localhost:8501
+
+Inspired by [Vertasium's](https://www.youtube.com/watch?v=094y1Z2wpJg) video on the subject
