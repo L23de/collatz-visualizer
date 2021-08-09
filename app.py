@@ -13,6 +13,7 @@ def collatz_algo(start_int: int):
     if start_int == 0:  # Special case
         yield 0
     else:
+        yield start_int
         while start_int != 1:
             if start_int % 2 == 0:  # If even
                 start_int = start_int / 2
@@ -33,7 +34,7 @@ Introduced by Lothar Collatz in 1937, the conjecture states that:
 "Almost all" numbers converge to 1 according to these rules. This is the reason why it is a conjecture and not a mathematical proof. No one has been able to prove such is true for EVERY number 
 """
 )
-start_int = st.number_input("Starting integer:", value=5, min_value=0)
-results = collatz_algo(start_int * 2)
+start_int = st.number_input("Starting integer:", value=42, min_value=0)
+results = collatz_algo(start_int)
 
 st.line_chart(results)
