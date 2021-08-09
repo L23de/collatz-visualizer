@@ -16,11 +16,11 @@ This visualizer hopes to serve as a simple visualizer for how volatile numbers w
 
 ## Installation
 
-```bash
-> git clone git@github.com:L23de/collatz-visualizer.git
-> cd collatz-visualizer
-> pip install pipenv
-> pipenv install
+```console
+$ git clone git@github.com:L23de/collatz-visualizer.git
+$ cd collatz-visualizer
+$ pip install pipenv
+$ pipenv install
 ```
 
 This clones the repo to your local machine, as well as sets up a virtual environment and installs the appropriate dependencies required
