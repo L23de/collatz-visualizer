@@ -2,6 +2,8 @@
 
 A simple visualizer of the Collatz Conjecture (The 3x+1 problem)
 
+Demo: https://share.streamlit.io/l23de/collatz-visualizer/main/app.py
+
 ## Defining the Collatz Conjecture
 
 The Collatz Conjecture states that:
